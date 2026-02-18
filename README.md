@@ -1,12 +1,12 @@
 # 30 Days of Python: Road to Data Science 🚀
 
-This repository tracks my journey from Python fundamentals to advanced data manipulation for AI and Machine Learning.
+This repository tracks my journey from Python fundamentals to advanced data manipulation for AI and Machine Learning. 
 
 > **"Consistency > Perfection" 💚**
 
 ---
 
-## 📅 The Roadmap
+## 🗺️ The Roadmap
 
 | Section | Focus | Status |
 | :--- | :--- | :--- |
@@ -21,9 +21,10 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 
 | Day | Topic | Key Concepts | Code |
 | :--- | :--- | :--- | :--- |
-| 01 | **Python Basics** | Variables, Data Types, Lists, Basic Functions | [View](./day1_python_basics.py) |
+| 01 | **Python Basics** | Variables, Data Types, Lists, Functions | [View](./day1_python_basics.py) |
 | 02 | **Control Flow & Logic** | If-Else, For/While Loops, Logic Gates | [View](./day2_python_basics.py) |
 | 03 | **Advanced Basics** | List Comprehensions, Error Handling | [Upcoming] |
+| 04 | **Intro to NumPy** | Arrays vs Lists, Vectorization | [Upcoming] |
 
 ---
 
@@ -39,8 +40,15 @@ Moved from static scripts to dynamic logic.
 
 ---
 
+### 🛠️ Tech Stack
+- **Language:** Python 3.x
+- **Libraries:** NumPy, Pandas, Scikit-Learn (Coming Soon)
+- **Tools:** VS Code, Git/GitHub
+
+---
+
 ### Why this repository?
 I am building a strong Python foundation specifically tailored for **Data Science**. By documenting my progress daily, I am creating a "proof of work" portfolio that shows my transition from a coder to a data practitioner.
 
 ---
-*Next Step: Day 3 - mastering "Pythonic" shorthand with List Comprehensions!*
+*Next Step: Day 3 - Mastering "Pythonic" shorthand with List Comprehensions!*
