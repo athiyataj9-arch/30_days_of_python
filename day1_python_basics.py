@@ -1,43 +1,34 @@
-"""
-Day 1: Variables & Data Types
-Focus: Understanding how to store and identify information.
-"""
+# ==========================================
+# DAY 1: VARIABLES & DATA TYPES 🧪
+# ==========================================
 
-# 1. THE FOUR CORE DATA TYPES
-# ---------------------------
-# String (str): For text. Must be inside quotes.
-my_name = "Athiya" 
+# 1. STRINGS (Text)
+# Labeled jar for words.
+name = "Athiya" 
 
-# Integer (int): For whole numbers.
-my_age = 22 
+# 2. INTEGERS (Whole Numbers)
+# Counting whole units.
+age = 22 
 
-# Float (float): For decimals.
-my_score = 95.5 
+# 3. FLOATS (Decimals)
+# Precise measurements for math/data.
+gpa = 3.8 
 
-# Boolean (bool): For True/False logic.
-is_learning_python = True 
+# 4. BOOLEANS (Logical)
+# True or False switches.
+is_coding = True 
 
-# 2. PRINTING AND FORMATTING
-# ---------------------------
-# f-strings (formatted strings) make it easy to mix text and variables.
-print("--- Day 1 Results ---")
-print(f"Name: {my_name}")
-print(f"Age: {my_age}")
-print(f"Current Score: {my_score}")
-print(f"Learning Python? {is_learning_python}")
+print("--- Day 1: Results ---")
+print(f"User: {name} | Age: {age} | GPA: {gpa}")
 
-# 3. IDENTIFYING TYPES
-# ---------------------------
-# The type() function is like an X-ray; it tells you what data type a variable is.
-print("\n--- Identifying Types ---")
-print(f"Type of my_name: {type(my_name)}")
-print(f"Type of my_age: {type(my_age)}")
+# 5. TYPE CHECKING
+# Asking Python what's inside the jar.
+print(f"Data type of name: {type(name)}")
 
-# 4. TYPE CASTING (CONVERSION)
-# ---------------------------
-# Sometimes we need to change a data type to perform math.
-# Example: Turning a string "10" into an actual number.
-str_number = "10"
-int_number = int(str_number)  # Converting string -> integer
+# 6. TYPE CASTING
+# Converting a string number into an actual integer for math.
+user_input = "10"
+converted_input = int(user_input)
+print(f"Math Result: {converted_input + 5}")
 
-print(f"\nMath result: {int_number + 5}") # Should output 15
+# End of Day 1 Script
