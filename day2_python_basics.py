@@ -1,54 +1,57 @@
 """
-Day 2 - Python Data Structures & Control Flow
+Day 2 - Python Control Flow & Logic
 Author: Athiya
-Focus: Moving from single variables to collections of data.
+Goal: Mastering decision-making and loops for data processing.
 """
 
-# 1. Advanced List Operations (The precursor to NumPy Arrays)
-# Creating a list of data science skills
-skills = ["Python", "Statistics", "Machine Learning"]
-skills.append("Data Visualization")
-skills.insert(1, "SQL") # Adding SQL at index 1
+print("--- Day 2: Control Flow & Logic ---")
 
-print("--- Day 2: Data Structures ---")
-print(f"My Skill Stack: {skills}")
-print(f"Primary Skill: {skills[0]}") # Indexing
+# 1. Conditionals (if-elif-else)
+# Simulating a simple data quality check
+data_value = 85
 
-
-# 2. Dictionaries (The precursor to Pandas Series/DataFrames)
-# Storing data as Key-Value pairs
-dataset_info = {
-    "name": "Titanic",
-    "size_mb": 1.2,
-    "features": 12,
-    "is_cleaned": False
-}
-
-print(f"\nAnalyzing Dataset: {dataset_info['name']}")
-print(f"Dataset Features: {dataset_info.get('features')}")
+print("\n[1] Data Validation:")
+if data_value > 100:
+    print(f"Alert: {data_value} is an outlier.")
+elif data_value < 0:
+    print(f"Error: {data_value} is a negative value.")
+else:
+    print(f"Confirmed: {data_value} is within the normal range.")
 
 
-# 3. Control Flow: Logic for Data Cleaning
-# Categorizing numbers (Simulating outlier detection)
-data_points = [10, 50, 200, 35, 150]
-cleaned_data = []
+# 2. For Loops
+# Iterating through a list (simulating processing a dataset)
+measurements = [1.2, 3.5, 0.8, 5.2, 2.1]
+scaled_measurements = []
 
-print("\nRunning Data Quality Check...")
-for point in data_points:
-    if point > 100:
-        print(f"-> Outlier detected: {point} (Skipping)")
-    else:
-        cleaned_data.append(point)
+print("\n[2] Processing Dataset:")
+for val in measurements:
+    # Applying a scaling factor
+    scaled_measurements.append(round(val * 10, 2))
 
-print(f"Final Cleaned List: {cleaned_data}")
+print(f"Original: {measurements}")
+print(f"Scaled:   {scaled_measurements}")
 
 
-# 4. Functions for Reusable Logic
-def calculate_accuracy(y_true, y_pred):
-    """Simple function to simulate ML accuracy calculation."""
-    correct = sum(1 for t, p in zip(y_true, y_pred) if t == p)
-    return (correct / len(y_true)) * 100
+# 3. While Loops
+# Useful for processes that run until a target is reached
+threshold = 0
+limit = 3
+print("\n[3] System Initialization:")
+while threshold < limit:
+    threshold += 1
+    print(f"Loading component... {threshold}/{limit}")
+print("System Ready.")
 
-actual = [1, 0, 1, 1]
-predicted = [1, 0, 0, 1]
-print(f"\nModel Accuracy: {calculate_accuracy(actual, predicted)}%")
+
+# 4. Logic Gates in Practice
+# Combining loops and conditionals to filter data
+raw_data = [12, 45, 7, 89, 32, 56, 4, 10]
+filtered_data = []
+
+print("\n[4] Data Filtering:")
+for num in raw_data:
+    if num > 20 and num % 2 == 0:
+        filtered_data.append(num)
+
+print(f"Items > 20 and Even: {filtered_data}")
