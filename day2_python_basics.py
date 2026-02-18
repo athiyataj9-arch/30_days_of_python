@@ -1,46 +1,36 @@
-"""
-Day 2: Loops & Functions
-Focus: Automating repetitive tasks and creating reusable code.
-"""
+# ==========================================
+# DAY 2: LOOPS & FUNCTIONS 🔄
+# ==========================================
 
-# 1. FUNCTIONS (The "Recipe")
-# ---------------------------
-# 'def' tells Python we are defining a function.
-# 'username' is a placeholder (parameter).
-def greet_user(username):
-    """This function takes a name and prints a welcome message."""
-    print(f"Hello {username}, welcome to Day 2!")
+# 1. FUNCTIONS (The Recipe)
+# We define a task once and use it many times.
+def daily_update(day_num, topic):
+    print(f"Today is Day {day_num} and I am learning {topic}.")
 
-# We "call" the function to run it:
 print("--- [Section 1: Functions] ---")
-greet_user("Athiya")
+daily_update(2, "Loops and Logic")
 
-
-# 2. THE 'FOR' LOOP (The Counter)
-# ---------------------------
-# Use this when you want to do something a specific number of times.
+# 2. FOR LOOPS (The Repetition)
+# Repeating a task a set number of times.
 print("\n--- [Section 2: For Loops] ---")
-print("Counting steps:")
-for step in range(1, 4):  # range(1, 4) gives us 1, 2, and 3
-    print(f"Step {step} completed! ✅")
+for i in range(1, 4):
+    print(f"Processing data point {i}...")
 
-
-# 3. THE 'WHILE' LOOP (The Condition)
-# ---------------------------
-# Use this when you want to repeat until a condition is met.
+# 3. WHILE LOOPS (The Condition)
+# Repeat as long as a condition stays True.
 print("\n--- [Section 3: While Loops] ---")
-battery_life = 3
-while battery_life > 0:
-    print(f"Phone is ON. Battery at {battery_life}%")
-    battery_life -= 1 # Decreasing battery so the loop stops eventually
-print("Phone shut down. 🪫")
+energy = 3
+while energy > 0:
+    print(f"Coding... Energy left: {energy}")
+    energy -= 1
+print("Battery empty. Time to rest!")
 
+# 4. RETURN KEYWORD
+# Giving a result back to the main program.
+def add_bonus(score):
+    return score + 5
 
-# 4. THE 'RETURN' KEYWORD
-# ---------------------------
-# 'return' gives a result back to the main program instead of just printing it.
-def add_bonus(current_score):
-    return current_score + 10
+final_score = add_bonus(90)
+print(f"\nFinal Score: {final_score}")
 
-final_result = add_bonus(90)
-print(f"\nFinal Score after bonus: {final_result}")
+# End of Day 2 Script
