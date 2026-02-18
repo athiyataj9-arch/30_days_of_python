@@ -1,57 +1,46 @@
 """
-Day 2 - Python Control Flow & Logic
-Author: Athiya
-Goal: Mastering decision-making and loops for data processing.
+Day 2: Loops & Functions
+Focus: Automating repetitive tasks and creating reusable code.
 """
 
-print("--- Day 2: Control Flow & Logic ---")
+# 1. FUNCTIONS (The "Recipe")
+# ---------------------------
+# 'def' tells Python we are defining a function.
+# 'username' is a placeholder (parameter).
+def greet_user(username):
+    """This function takes a name and prints a welcome message."""
+    print(f"Hello {username}, welcome to Day 2!")
 
-# 1. Conditionals (if-elif-else)
-# Simulating a simple data quality check
-data_value = 85
-
-print("\n[1] Data Validation:")
-if data_value > 100:
-    print(f"Alert: {data_value} is an outlier.")
-elif data_value < 0:
-    print(f"Error: {data_value} is a negative value.")
-else:
-    print(f"Confirmed: {data_value} is within the normal range.")
+# We "call" the function to run it:
+print("--- [Section 1: Functions] ---")
+greet_user("Athiya")
 
 
-# 2. For Loops
-# Iterating through a list (simulating processing a dataset)
-measurements = [1.2, 3.5, 0.8, 5.2, 2.1]
-scaled_measurements = []
-
-print("\n[2] Processing Dataset:")
-for val in measurements:
-    # Applying a scaling factor
-    scaled_measurements.append(round(val * 10, 2))
-
-print(f"Original: {measurements}")
-print(f"Scaled:   {scaled_measurements}")
+# 2. THE 'FOR' LOOP (The Counter)
+# ---------------------------
+# Use this when you want to do something a specific number of times.
+print("\n--- [Section 2: For Loops] ---")
+print("Counting steps:")
+for step in range(1, 4):  # range(1, 4) gives us 1, 2, and 3
+    print(f"Step {step} completed! ✅")
 
 
-# 3. While Loops
-# Useful for processes that run until a target is reached
-threshold = 0
-limit = 3
-print("\n[3] System Initialization:")
-while threshold < limit:
-    threshold += 1
-    print(f"Loading component... {threshold}/{limit}")
-print("System Ready.")
+# 3. THE 'WHILE' LOOP (The Condition)
+# ---------------------------
+# Use this when you want to repeat until a condition is met.
+print("\n--- [Section 3: While Loops] ---")
+battery_life = 3
+while battery_life > 0:
+    print(f"Phone is ON. Battery at {battery_life}%")
+    battery_life -= 1 # Decreasing battery so the loop stops eventually
+print("Phone shut down. 🪫")
 
 
-# 4. Logic Gates in Practice
-# Combining loops and conditionals to filter data
-raw_data = [12, 45, 7, 89, 32, 56, 4, 10]
-filtered_data = []
+# 4. THE 'RETURN' KEYWORD
+# ---------------------------
+# 'return' gives a result back to the main program instead of just printing it.
+def add_bonus(current_score):
+    return current_score + 10
 
-print("\n[4] Data Filtering:")
-for num in raw_data:
-    if num > 20 and num % 2 == 0:
-        filtered_data.append(num)
-
-print(f"Items > 20 and Even: {filtered_data}")
+final_result = add_bonus(90)
+print(f"\nFinal Score after bonus: {final_result}")
