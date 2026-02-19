@@ -35,17 +35,14 @@ Focused on the absolute building blocks of Python. Think of variables as **label
 * **Concepts:** * `str`: Textual data (e.g., "Athiya").
     * `int` & `float`: Whole numbers and precise decimals.
     * `type()`: The "X-ray" tool to see what's inside a variable.
-    * **Casting:** Converting data (like turning the string "10" into a number) so we can do math.
-* **Goal:** Understand how Python labels and stores data in memory.
+* **Reflection:** Practiced basic variables and data types. Feeling confident about building a solid Python foundation.
 
 ## 📂 Day 2: Loops & Functions
 Moved from static data to active logic. This is where we learn to **automate** tasks so we don't have to repeat code manually.
 
 * **Concepts:** * **Functions (`def`):** Creating a "Recipe" once and using it many times.
-    * **For Loops:** Repeating a task a specific number of times.
-    * **While Loops:** Running code as long as a condition is true.
-    * **Return:** How a function sends a result back to the main program.
-* **Goal:** Use logic to make code reusable and efficient.
+    * **Loops:** `for` and `while` for repetition; `break`/`continue` for control.
+* **Reflection:** Learned how to make code reusable. Automation through loops is a game-changer for data processing.
 
 ## 📂 Day 3: Lists & List Methods
 Mastered ordered collections. Lists are essential for handling sequences of data in Data Science.
@@ -54,8 +51,7 @@ Mastered ordered collections. Lists are essential for handling sequences of data
 
 * **Concepts:** * **List Methods:** Using `append()`, `insert()`, and `pop()` to modify data.
     * **Slicing:** Extracting specific parts of a list using `[start:stop:step]`.
-    * **Nested Lists:** Working with lists inside lists (matrices).
-* **Goal:** Efficiently store and manipulate sequences of information.
+* **Reflection:** Practiced working with lists and iterating through them. Slicing logic is very intuitive once you visualize the indices.
 
 ## 📂 Day 4: Tuples & Sets
 Explored specialized collections focusing on data integrity and uniqueness.
@@ -63,7 +59,7 @@ Explored specialized collections focusing on data integrity and uniqueness.
 * **Concepts:** * **Tuples:** Understanding immutability—data that cannot be changed once set.
     * **Sets:** Collections that automatically handle unique values and remove duplicates.
     * **Set Operations:** Using logic like `intersection()` and `union()`.
-* **Goal:** Choose the right data structure for security and unique data filtering.
+* **Reflection:** Learned about immutable and unique collections. Understanding the difference between a List and a Tuple is key for data safety.
 
 ---
 
