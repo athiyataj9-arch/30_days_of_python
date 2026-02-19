@@ -50,9 +50,11 @@ Moved from static data to active logic. This is where we learn to **automate** t
 ## 📂 Day 3: Lists & List Methods
 Mastered ordered collections. Lists are essential for handling sequences of data in Data Science.
 
-* **Concepts:** * **List Methods:** Using `append`, `insert`, and `pop` to modify data.
-    * **Slicing:** Extracting specific ranges from a list.
-    * **Nesting:** Working with lists inside lists (the start of matrices).
+
+
+* **Concepts:** * **List Methods:** Using `append()`, `insert()`, and `pop()` to modify data.
+    * **Slicing:** Extracting specific parts of a list using `[start:stop:step]`.
+    * **Nested Lists:** Working with lists inside lists (matrices).
 * **Goal:** Efficiently store and manipulate sequences of information.
 
 ## 📂 Day 4: Tuples & Sets
@@ -60,7 +62,7 @@ Explored specialized collections focusing on data integrity and uniqueness.
 
 * **Concepts:** * **Tuples:** Understanding immutability—data that cannot be changed once set.
     * **Sets:** Collections that automatically handle unique values and remove duplicates.
-    * **Set Operations:** Using logic like `intersection` and `union`.
+    * **Set Operations:** Using logic like `intersection()` and `union()`.
 * **Goal:** Choose the right data structure for security and unique data filtering.
 
 ---
