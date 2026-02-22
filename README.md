@@ -27,9 +27,11 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 | 04 | **Tuples & Sets** | immutability, uniqueness, set operations | [View](./day4_python_basics.py) |
 | 05 | **Dictionaries** | Key-value pairs, adding/removing items | [View](./day5_dictionaries.py) |
 | 06 | **Conditional Statements** | if, elif, else, logical operators | [View](./day6_conditionals.py) |
-| 07 | **User Input & Casting** | input(), str to int/float conversion | [View](./day7_user_input.py) |
+| 07 | **User Input** | input(), str to int/float conversion | [View](./day7_user_input.py) |
 | 08 | **String Manipulation** | strip(), split(), join(), f-strings | [View](./day8_string_manipulation.py) |
-| 09 | **List Comprehensions** | Compact list creation, conditionals | [Upcoming] |
+| 09 | **List Comprehensions** | Compact list creation, conditionals | [View](./day9_list_comprehensions.py) |
+| 10 | **File Handling Basics** | open(), read(), write(), with statement | [View](./day10_file_handling.py) |
+| 11 | **Exception Handling** | try, except, finally, raising errors | [Upcoming] |
 
 ---
 
@@ -62,9 +64,18 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 * **Reflection:** Practiced taking input and handling data types. Realized that input validation is crucial to prevent code from crashing.
 
 ## 📂 Day 8: String Manipulation
-
 * **Concepts:** `strip()`, `split()`, `join()`, f-string formatting, substring checking.
 * **Reflection:** Practiced manipulating and formatting strings efficiently. These are essential tools for cleaning real-world data.
+
+## 📂 Day 9: List Comprehensions
+
+* **Concepts:** One-line list creation, conditional filtering inside lists, syntax: `[expression for item in iterable if condition]`.
+* **Reflection:** Learned concise ways to create lists. List comprehensions make the code much more readable and "Pythonic."
+
+## 📂 Day 10: File Handling Basics
+
+* **Concepts:** `open()`, `read()`, `write()`, `append()`, and the `with` statement for automatic file closing.
+* **Reflection:** Practiced reading and writing files. This is a huge step toward working with real-world datasets and logs.
 
 ---
 
@@ -79,4 +90,4 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 I am building a strong Python foundation specifically tailored for **Data Science**. By documenting my progress daily, I am creating a "proof of work" portfolio that shows my transition from a beginner to a data practitioner.
 
 ---
-*Next Step: Day 9 - List Comprehensions!*
+*Next Step: Day 11 - Exception Handling!*
