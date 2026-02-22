@@ -31,7 +31,9 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 | 08 | **String Manipulation** | strip(), split(), join(), f-strings | [View](./day8_string_manipulation.py) |
 | 09 | **List Comprehensions** | Compact list creation, conditionals | [View](./day9_list_comprehensions.py) |
 | 10 | **File Handling Basics** | open(), read(), write(), with statement | [View](./day10_file_handling.py) |
-| 11 | **Exception Handling** | try, except, finally, raising errors | [Upcoming] |
+| 11 | **Exception Handling** | try, except, else, finally, raise | [View](./day11_exception_handling.py) |
+| 12 | **Modules & Packages** | import, math, random, datetime, pip | [View](./day12_modules.py) |
+| 13 | **NumPy Basics** | np.array, shape, dtype, indexing | [Upcoming] |
 
 ---
 
@@ -68,14 +70,21 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 * **Reflection:** Practiced manipulating and formatting strings efficiently. These are essential tools for cleaning real-world data.
 
 ## 📂 Day 9: List Comprehensions
-
-* **Concepts:** One-line list creation, conditional filtering inside lists, syntax: `[expression for item in iterable if condition]`.
+* **Concepts:** One-line list creation, conditional filtering inside lists.
 * **Reflection:** Learned concise ways to create lists. List comprehensions make the code much more readable and "Pythonic."
 
 ## 📂 Day 10: File Handling Basics
-
-* **Concepts:** `open()`, `read()`, `write()`, `append()`, and the `with` statement for automatic file closing.
+* **Concepts:** `open()`, `read()`, `write()`, `append()`, and the `with` statement.
 * **Reflection:** Practiced reading and writing files. This is a huge step toward working with real-world datasets and logs.
+
+## 📂 Day 11: Exception Handling
+
+* **Concepts:** `try`, `except`, `else`, `finally`, and raising custom errors.
+* **Reflection:** Learned how to handle errors gracefully. This makes my scripts much more reliable when dealing with unpredictable user input.
+
+## 📂 Day 12: Modules & Packages
+* **Concepts:** Importing built-in modules like `math`, `random`, and `datetime`. Understanding `pip` for external libraries.
+* **Reflection:** Learned to organize code into modules. It's amazing how much "pre-built" power Python provides through its standard library.
 
 ---
 
@@ -90,4 +99,4 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 I am building a strong Python foundation specifically tailored for **Data Science**. By documenting my progress daily, I am creating a "proof of work" portfolio that shows my transition from a beginner to a data practitioner.
 
 ---
-*Next Step: Day 11 - Exception Handling!*
+*Next Step: Day 13 - Getting Started with NumPy!*
