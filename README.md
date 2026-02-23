@@ -10,8 +10,8 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 
 | Section | Focus | Status |
 | :--- | :--- | :--- |
-| **01** | **Python Foundations** | 🟡 In Progress |
-| **02** | **NumPy & Numerical Computing** | ⚪ Pending |
+| **01** | **Python Foundations** | ✅ Completed |
+| **02** | **NumPy & Numerical Computing** | 🟡 In Progress |
 | **03** | **Pandas & Data Manipulation** | ⚪ Pending |
 | **04** | **Machine Learning Basics** | ⚪ Pending |
 
@@ -21,82 +21,39 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 
 | Day | Topic | Key Concepts | Code |
 | :--- | :--- | :--- | :--- |
-| 01 | **Variables & Data Types** | int, float, str, bool, type(), casting | [View](./day1_python_basics.py) |
-| 02 | **Loops & Functions** | def, return, for/while loops, arguments | [View](./day2_python_basics.py) |
-| 03 | **Lists & Methods** | append, slicing, nested lists | [View](./day3_python_basics.py) |
-| 04 | **Tuples & Sets** | immutability, uniqueness, set operations | [View](./day4_python_basics.py) |
-| 05 | **Dictionaries** | Key-value pairs, adding/removing items | [View](./day5_dictionaries.py) |
-| 06 | **Conditional Statements** | if, elif, else, logical operators | [View](./day6_conditionals.py) |
-| 07 | **User Input** | input(), str to int/float conversion | [View](./day7_user_input.py) |
-| 08 | **String Manipulation** | strip(), split(), join(), f-strings | [View](./day8_string_manipulation.py) |
-| 09 | **List Comprehensions** | Compact list creation, conditionals | [View](./day9_list_comprehensions.py) |
-| 10 | **File Handling Basics** | open(), read(), write(), with statement | [View](./day10_file_handling.py) |
-| 11 | **Exception Handling** | try, except, else, finally, raise | [View](./day11_exception_handling.py) |
-| 12 | **Modules & Packages** | import, math, random, datetime, pip | [View](./day12_modules.py) |
-| 13 | **NumPy Basics** | np.array, shape, dtype, indexing | [Upcoming] |
+| 01-12 | **Foundations** | Variables, Loops, Files, Modules | [Day 12](./day12_modules.py) |
+| 13 | **NumPy Basics** | np.array, shape, multi-dim matrices | [View](./day13_numpy_basics.py) |
+| 14 | **NumPy Operations** | Vectorization, Mean/Std, Reshaping | [View](./day14_numpy_operations.py) |
+| 15 | **Pandas Basics** | Series, DataFrames, head(), describe() | [View](./day15_pandas_basics.py) |
+| 16 | **Data Selection** | loc, iloc, Conditional Filtering | [View](./day16_data_selection.py) |
+| 17 | **Data Cleaning** | dropna(), fillna(), duplicates | [Upcoming] |
 
 ---
 
-## 📂 Day 1: Variables & Data Types
-* **Concepts:** `str`, `int`, `float`, `type()`, Casting.
-* **Reflection:** Practiced basic variables and data types. Feeling confident about Python foundations.
+## 📂 Day 13: NumPy Basics
 
-## 📂 Day 2: Loops & Functions
-* **Concepts:** Functions (`def`), For Loops, While Loops, Return values.
-* **Reflection:** Learned loops and how to create reusable functions to automate tasks.
+* **Concepts:** Creating N-dimensional arrays, checking shapes, and memory-efficient data storage.
+* **Reflection:** Started Section 2! NumPy arrays are so much more powerful than standard lists for numerical work.
 
-## 📂 Day 3: Lists & List Methods
-* **Concepts:** `append()`, `insert()`, `pop()`, Slicing, Nested lists.
-* **Reflection:** Practiced working with lists and iterating through them. Mastering slicing is key for data handling.
+## 📂 Day 14: NumPy Operations
+* **Concepts:** Vectorized math, statistical functions (`mean`, `std`), and broadcasting.
+* **Reflection:** Learned how to perform math on entire datasets without writing a single `for` loop. This is where speed comes from in Data Science.
 
-## 📂 Day 4: Tuples & Sets
-* **Concepts:** Immutability, Sets, Union/Intersection, Set operations.
-* **Reflection:** Learned immutable and unique collections in Python. Useful for protecting data integrity.
+## 📂 Day 15: Pandas Basics
 
-## 📂 Day 5: Dictionaries
-* **Concepts:** Key-value pairs, `items()`, `keys()`, `values()`, updating dictionaries.
-* **Reflection:** Practiced storing and retrieving data efficiently. Dictionaries feel like the backbone of structured data.
+* **Concepts:** Series vs DataFrames, creating data from dictionaries, and inspecting data with `head()`.
+* **Reflection:** Finally reached Pandas! Being able to see data in a table format makes everything much clearer.
 
-## 📂 Day 6: Conditional Statements
-* **Concepts:** `if`, `elif`, `else`, Logical operators (`and`, `or`), Nested conditions.
-* **Reflection:** Learned decision-making in code. Understanding logic flow is essential for building smart algorithms.
-
-## 📂 Day 7: User Input & Type Casting
-* **Concepts:** `input()`, `int()` and `float()` casting, validating numeric input.
-* **Reflection:** Practiced taking input and handling data types. Realized that input validation is crucial to prevent code from crashing.
-
-## 📂 Day 8: String Manipulation
-* **Concepts:** `strip()`, `split()`, `join()`, f-string formatting, substring checking.
-* **Reflection:** Practiced manipulating and formatting strings efficiently. These are essential tools for cleaning real-world data.
-
-## 📂 Day 9: List Comprehensions
-* **Concepts:** One-line list creation, conditional filtering inside lists.
-* **Reflection:** Learned concise ways to create lists. List comprehensions make the code much more readable and "Pythonic."
-
-## 📂 Day 10: File Handling Basics
-* **Concepts:** `open()`, `read()`, `write()`, `append()`, and the `with` statement.
-* **Reflection:** Practiced reading and writing files. This is a huge step toward working with real-world datasets and logs.
-
-## 📂 Day 11: Exception Handling
-
-* **Concepts:** `try`, `except`, `else`, `finally`, and raising custom errors.
-* **Reflection:** Learned how to handle errors gracefully. This makes my scripts much more reliable when dealing with unpredictable user input.
-
-## 📂 Day 12: Modules & Packages
-* **Concepts:** Importing built-in modules like `math`, `random`, and `datetime`. Understanding `pip` for external libraries.
-* **Reflection:** Learned to organize code into modules. It's amazing how much "pre-built" power Python provides through its standard library.
+## 📂 Day 16: Data Selection
+* **Concepts:** Slicing with `loc`/`iloc` and using boolean logic to filter rows.
+* **Reflection:** Mastered the art of "drilling down" into data. Filtering rows based on conditions is a skill I'll use every day.
 
 ---
 
 ### 🛠️ Tech Stack
 - **Language:** Python 3.x
-- **Environment:** VS Code
+- **Libraries:** NumPy, Pandas
 - **Tools:** Git/GitHub
 
 ---
-
-### Why this repository?
-I am building a strong Python foundation specifically tailored for **Data Science**. By documenting my progress daily, I am creating a "proof of work" portfolio that shows my transition from a beginner to a data practitioner.
-
----
-*Next Step: Day 13 - Getting Started with NumPy!*
+*Next Step: Day 17 - Data Cleaning in Pandas!*
