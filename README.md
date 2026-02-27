@@ -1,6 +1,6 @@
-# 30 Days of Python: Road to Data Science 🚀
+# 30 Days of Python: Road to Data Science & Mastery 🚀
 
-This repository tracks my journey from Python fundamentals to advanced data manipulation for AI and Learning. 
+This repository tracks my journey from Python fundamentals to advanced automation and software design.
 
 > **"Consistency > Perfection" 💚**
 
@@ -11,9 +11,9 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 | Section | Focus | Status |
 | :--- | :--- | :--- |
 | **01** | **Python Foundations** | ✅ Completed |
-| **02** | **NumPy & Numerical Computing** | ✅ Completed |
-| **03** | **Pandas & Visualization** | 🟡 In Progress |
-| **04** | **Machine Learning Basics** | ⚪ Pending |
+| **02** | **Numerical & Data Libraries** | ✅ Completed |
+| **03** | **Data Visualization** | ✅ Completed |
+| **04** | **Advanced Python & OOP** | 🟡 In Progress |
 
 ---
 
@@ -21,28 +21,27 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 
 | Day | Topic | Key Concepts | Code |
 | :--- | :--- | :--- | :--- |
-| 01-22 | **Basics, Data & Matplotlib** | Core Python to Stat Plots | [Day 22](./day22_scatter_histograms.py) |
-| 23 | **Seaborn Styling** | violinplot, heatmap, pairplot, themes | [View](./day23_seaborn_styling.py) |
-| 24 | **Statistical Analysis** | Mean/Median/Mode, Z-Score, Percentiles | [View](./day24_statistical_analysis.py) |
-| 25 | **Intro to Scikit-Learn** | Linear Regression basics | [Upcoming] |
+| 01-24 | **Basics, Stats & Viz** | Loops to Seaborn Charts | [Day 24](./day24_statistical_analysis.py) |
+| 25 | **OOP Basics** | Classes, Objects, __init__, self | [View](./day25_oop_basics.py) |
+| 26 | **Inheritance** | super(), Parent/Child classes, Poly | [View](./day26_oop_inheritance.py) |
+| 27 | **APIs & JSON** | Requests, HTTP codes, Data Parsing | [Upcoming] |
 
 ---
 
-## 📂 Day 23: Seaborn Visualization
+## 📂 Day 25: Object-Oriented Programming (OOP)
+* **Concepts:** Creating Classes, defining attributes, and using Methods to manipulate data.
+* **Reflection:** Today felt like a huge leap. Instead of just running commands, I'm building blueprints for real-world objects. It makes code much more organized.
 
-* **Concepts:** Advanced styling with `sns.set_theme`, creating violin plots for density, and heatmaps for correlation.
-* **Reflection:** Seaborn makes data look "publication-ready." The heatmap is especially useful for quickly identifying which features in a dataset are actually important.
-
-## 📂 Day 24: Statistical Analysis
-* **Concepts:** Calculating central tendency, dispersion (standard deviation), and identifying outliers using Z-scores.
-* **Reflection:** Statistics provide the mathematical proof for the patterns I see in my charts. Understanding the "spread" of data is just as important as the average.
+## 📂 Day 26: OOP Inheritance
+* **Concepts:** Reusing code through Inheritance and using `super()` to extend functionality.
+* **Reflection:** Inheritance is like a superpower for code efficiency. Why rewrite the basics when a child class can just "inherit" them?
 
 ---
 
 ### 🛠️ Tech Stack
 - **Language:** Python 3.x
-- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, SciPy
+- **Environment:** VS Code
 - **Tools:** Git/GitHub
 
 ---
-*Next Step: Day 25 - Jumping into Machine Learning with Scikit-Learn!*
+*Next Step: Day 27 - Fetching Real Data with APIs!*
