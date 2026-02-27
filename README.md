@@ -21,27 +21,28 @@ This repository tracks my journey from Python fundamentals to advanced data mani
 
 | Day | Topic | Key Concepts | Code |
 | :--- | :--- | :--- | :--- |
-| 01-20 | **Basics, NumPy, Pandas** | Core Python to Data Merging | [Day 20](./day20_merging_data.py) |
-| 21 | **Matplotlib Basics** | plt.plot(), labels, titles, bars | [View](./day21_matplotlib_basics.py) |
-| 22 | **Scatter & Histograms** | Distribution, Correlation, Subplots | [View](./day22_scatter_histograms.py) |
-| 23 | **Seaborn Visualization** | Heatmaps, Violin plots, Styling | [Upcoming] |
+| 01-22 | **Basics, Data & Matplotlib** | Core Python to Stat Plots | [Day 22](./day22_scatter_histograms.py) |
+| 23 | **Seaborn Styling** | violinplot, heatmap, pairplot, themes | [View](./day23_seaborn_styling.py) |
+| 24 | **Statistical Analysis** | Mean/Median/Mode, Z-Score, Percentiles | [View](./day24_statistical_analysis.py) |
+| 25 | **Intro to Scikit-Learn** | Linear Regression basics | [Upcoming] |
 
 ---
 
-## 📂 Day 21: Matplotlib Basics
-* **Concepts:** Creating line plots and bar charts. Customizing plots with labels, colors, and legends.
-* **Reflection:** Visualization is the "bridge" between data and understanding. Seeing a line plot of my progress makes the hard work feel tangible.
+## 📂 Day 23: Seaborn Visualization
 
-## 📂 Day 22: Scatter Plots & Histograms
-* **Concepts:** Visualizing data distributions with Histograms and exploring relationships between variables with Scatter Plots.
-* **Reflection:** Learned that data has a "shape." Histograms help you see outliers and spread, which is vital for statistical analysis.
+* **Concepts:** Advanced styling with `sns.set_theme`, creating violin plots for density, and heatmaps for correlation.
+* **Reflection:** Seaborn makes data look "publication-ready." The heatmap is especially useful for quickly identifying which features in a dataset are actually important.
+
+## 📂 Day 24: Statistical Analysis
+* **Concepts:** Calculating central tendency, dispersion (standard deviation), and identifying outliers using Z-scores.
+* **Reflection:** Statistics provide the mathematical proof for the patterns I see in my charts. Understanding the "spread" of data is just as important as the average.
 
 ---
 
 ### 🛠️ Tech Stack
 - **Language:** Python 3.x
-- **Libraries:** NumPy, Pandas, Matplotlib
+- **Libraries:** NumPy, Pandas, Matplotlib, Seaborn, SciPy
 - **Tools:** Git/GitHub
 
 ---
-*Next Step: Day 23 - Aesthetic Charts with Seaborn!*
+*Next Step: Day 25 - Jumping into Machine Learning with Scikit-Learn!*
