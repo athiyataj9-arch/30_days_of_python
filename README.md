@@ -29,7 +29,7 @@ This repository tracks my journey from Python fundamentals to data manipulation,
 | 24 | **Statistical Analysis** | Mean/Median, Z-Score, Percentiles | [View](./day24_statistical_analysis.py) |
 | 25 | **Strings & Logic** | Anagrams, Palindromes, Frequency | [View](./day25_interview_strings.py) |
 | 26 | **Arrays & Lists** | Two Sum, Missing Number, Pointers | [View](./day26_interview_arrays.py) |
-| 27 | **Search & Math** | Binary Search, Fibonacci, Primes | [Upcoming] |
+| 27 | **Search & Math** | Binary Search, Sqrt(x), Primes | [View](./day27_interview_search_math.py) |
 | 28 | **Data Structures** | Stacks, Balanced Parentheses | [Upcoming] |
 | 29 | **Hashing & Maps** | Grouping Anagrams, Unique Chars | [Upcoming] |
 | 30 | **Final Capstone** | Sliding Window, Complexity Analysis | [Upcoming] |
@@ -59,6 +59,11 @@ This repository tracks my journey from Python fundamentals to data manipulation,
 * **Concepts:** Hash Map optimization ($O(n)$ search), Two-Pointer technique for in-place swaps, and mathematical summation.
 * **Reflection:** Mastered the "Two Sum" pattern. Using a dictionary to store "seen" values turns a slow nested loop into a high-performance linear search.
 
+## 📂 Day 27: Search & Math Optimization
+
+* **Concepts:** Binary Search ($O(\log n)$), finding square roots using search boundaries, and optimized primality testing.
+* **Reflection:** Today I learned that Binary Search isn't just for finding numbers in a list; it can be used to solve mathematical problems like square roots. Efficiency is the name of the game in technical interviews!
+
 ---
 
 ### 🛠️ Tech Stack
@@ -68,4 +73,4 @@ This repository tracks my journey from Python fundamentals to data manipulation,
 - **Tools:** VS Code, Git/GitHub
 
 ---
-*Next Step: Day 27 - Binary Search & Mathematical Optimization!*
+*Next Step: Day 28 - Data Structures (Stacks) & Balanced Parentheses!*
